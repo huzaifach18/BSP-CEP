@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+
+# Ignore all files in files/ directory by default
+files/*
+
+# But do not ignore these specific files or patterns in files/
+!files/07879*
+!files/bsp_cep_noisy.py
+!files/notes.txt
+!files/ANNOTATORS
+!files/RECORDS
+!files/SHA256SUMS.txt
+
+# Do not ignore the directory files/old itself
+!files/old/
+
+# Ignore all files in files/old/ directory by default
+files/old/*
+
+# But do not ignore 07879 files in files/old/
+!files/old/07879*
